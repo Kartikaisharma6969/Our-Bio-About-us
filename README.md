@@ -12,10 +12,12 @@ Technologies Used
 HTML: For the structure and content of the webpage.
 CSS: For styling the webpage and making it visually appealing.
 How to View the Project
-Clone this repository to your local machine.
+
+
+Clone this repository to your local machine/ If you dont have the local access of github on your system then aap simple yhaa se bhi access kr skte ho
 Open the index.html file in any web browser to view the portfolio website.
 Contributing
 Feel free to fork this repository, make changes, and submit pull requests. Contributions are always welcome!
 
-Acknowledgments
+Acknowledgments......
 Kartikai Sharma, Naman Sharma, and Nitish Dhiman for the development of the website.
