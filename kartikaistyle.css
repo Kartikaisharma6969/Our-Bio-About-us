@@ -1,145 +1,140 @@
-/* Reset some default styles */
-* {
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body styles */
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #f3f4f6, #e2e8f0);
+    background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
 }
 
-/* Header styles */
+/* Header */
 header {
-    background-color: #1a73e8;
-    color: #fff;
+    background: #0073e6;
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    transition: background-color 0.3s ease-in-out;
+    font-size: 1.8rem;
+}
+/* Profile Section */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-header:hover {
-    background-color: #155ab6;
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
 }
 
-/* Main content styles */
+header h1 {
+    margin: 0;
+}
+header h6{
+    margin: 0px;
+}
+
+header h3 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+
+
+/* Main Content */
 main {
-    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 1.5s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+hr {
+    border: none;
+    height: 2px;
+    background: #0073e6;
+    margin: 20px 0;
 }
 
 .subheading {
-    text-align: center;
-    color: #1a73e8;
-    margin: 20px 0;
-    position: relative;
-}
-
-.subheading::after {
-    content: "";
-    width: 50px;
-    height: 4px;
-    background: #1a73e8;
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 2px;
-    animation: slideIn 1s ease-in-out;
-}
-
-@keyframes slideIn {
-    from {
-        width: 0;
-    }
-    to {
-        width: 50px;
-    }
+    color: #0073e6;
+    font-size: 1.5rem;
+    margin-top: 20px;
 }
 
 p {
-    margin-bottom: 15px;
+    font-size: 1.1rem;
+    
 }
 
-/* Image styles */
-img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
-}
 
-img:hover {
-    transform: scale(1.1);
-}
-
-/* Video styles */
-video {
-    max-width: 100%;
-    display: block;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Footer styles */
-footer {
-    background-color: #1a73e8;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 20px;
-    transition: background-color 0.3s ease-in-out;
 }
 
-footer:hover {
-    background-color: #155ab6;
+table, th, td {
+    border: 1px solid #0073e6;
+    padding: 10px;
+    text-align: center;
 }
 
-footer ul {
+th {
+    background: #0073e6;
+    color: white;
+}
+
+td {
+    background: #f9f9f9;
+}
+
+/* Video */
+video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer h3, footer h4 {
+    margin: 10px 0;
+}
+
+/* Social Media Links */
+ul {
     list-style: none;
     padding: 0;
-    margin: 20px 0;
 }
 
-footer ul li {
-    display: inline;
-    margin: 0 10px;
+ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
 }
 
-footer ul li a {
-    color: #fff;
-    text-decoration: none;
+a img {
+    height: 50px;
+    transition: transform 0.3s;
 }
 
-footer ul li a img {
-    height: 30px;
-    vertical-align: middle;
-    transition: transform 0.3s ease-in-out;
-}
-
-footer ul li a img:hover {
+a img:hover {
     transform: scale(1.1);
 }
