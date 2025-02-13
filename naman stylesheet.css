@@ -1,61 +1,61 @@
 
 body {
-    background: #d6f60476;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size:18px ;
-  }
-  ul{
-    color: #88CCF1;
-    font: roboto;
-  }
-  h1{
-    font-size: 36px;
-    padding: 15px;
-    color: #8c6b48;
-    background-color: white;
-    text-align: center;
-  }
-  p{
-    color :rgb(255, 255, 255);
-    background-color: #09f4f4;
-    background-position: 0cap;
-  }
-  h3{
-    font-size: 36px;
-    padding: 15px;
-    color: #08f4bd;
-    background-color: white;
-  }
+  background: #d6f60476;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size:18px ;
+}
+ul{
+  color: #88CCF1;
+  font: roboto;
+}
+h1{
+  font-size: 36px;
+  padding: 15px;
+  color: #8c6b48;
+  background-color: white;
+  text-align: center;
+}
+p{
+  color :rgb(255, 255, 255);
+  background-color: #09f4f4;
+  background-position: 0cap;
+}
+h3{
+  font-size: 36px;
+  padding: 15px;
+  color: #08f4bd;
+  background-color: white;
+}
 table {
-    height: 40%;
-    left: 8%;
-    margin: 10px auto;
-    overflow-y: scroll;
-    position: static;
-    width: 50%;
-  }
-  thead th {
-    background: #88CCF1;
-    color: #FFF;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  tr {
-    background: #f4f7f8;
-    border-bottom: 1px solid #FFF;
-    margin-bottom: 5px;
-  }
-  
-  th, td {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    padding: 20px;
-    font-size: 18px;
-    text-align: center;
-    width: 33.3333%;
-  }
+  height: 40%;
+  left: 8%;
+  margin: 10px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 50%;
+}
+thead th {
+  background: #88CCF1;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  width: 33.3333%;
+}
