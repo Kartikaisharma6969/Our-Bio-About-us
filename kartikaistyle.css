@@ -98,12 +98,55 @@ td {
     background: #f9f9f9;
 }
 
-/* Video */
-video {
-    display: block;
-    margin: 20px auto;
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.skills {
+    color: #0073e6;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.progress {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+.skills{
+    color: #0073e6;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.badge1 {
+    background-color: #ff9800;  /* Professional orange shade */
+    color: white;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+/*Master skill*/
+
+
+.badge {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a3a34a; /* Light beige color for paper/cotton look */
+    color: #333;
+    font-size: 16px;
     border-radius: 10px;
-    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Gives a more casual, handmade feel */
+}
+
+.badge:hover {
+    transform: scale(1.1) rotate(-2deg); /* Slight rotation for a natural, handmade look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
 }
 
 /* Footer */
